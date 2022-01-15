@@ -125,7 +125,23 @@ section{
     font-size: 20px;
     margin: 0 auto;
 }
-.steps img {
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  display: inline-block;
+  border-bottom: 3px solid;
+}
+.primary-border {
+  border-color: #fce138;
+}
+.secondary-border {
+  border-color: #39a6b2;
+}
+.steps span{
+    font-size: 38px;
+}.steps img {
     width: 15%;
     margin: 10px 0;
     align: center;
@@ -147,26 +163,4 @@ section{
 .steps p {
     color:#024e76;
     font-size: 23px;
-
-
-
-
-
-}
-.section-title {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
-  border-bottom: 3px solid;
-}
-.primary-border {
-  border-color: #fce138;
-}
-.secondary-border {
-  border-color: #39a6b2;
-}
-.steps span{
-    font-size: 38px;
 }
