@@ -144,7 +144,6 @@ section{
 }.steps img {
     width: 15%;
     margin: 10px 0;
-    align: center;
 
 }
 .steps div{
@@ -163,4 +162,50 @@ section{
 .steps p {
     color:#024e76;
     font-size: 23px;
+}
+.trainers {
+    text-align: center;
+}
+.trainer img {
+    float: left;
+    width: 35%;
+}
+.trainer p{
+    float: right;
+    
+}
+/* the code was broken*/
+.trainer-2 img {
+    float: right;
+    width: 35%;
+}
+/* it has been remade*/
+.trainer-2 p{
+    float:left;
+    
+}
+.trainer{
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background-color: #024e76;
+    color: #fce138;
+    overflow: auto;
+}
+.trainerbio {
+    padding: 35px;
+    float: left;
+    width: 65%;
+    line-height: 1.5;
+}
+/*mine didn't look like the mock-up so I learned about line height and font weight*/
+.trainerbio h4{
+    line-height: 2;
+    font-size: larger;
+    font-weight: 400;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
 }
