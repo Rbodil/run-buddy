@@ -221,6 +221,7 @@ section{
 }
 .contactinfo h3{
     color: #fce138;
+    font-size: 32px;
 }
 .contactinfo {
     width: 410px;
@@ -231,4 +232,12 @@ section{
     color:white;
 
 }
-
+.contactinfo p, .contactinfo address{
+    margin: 20px;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style:normal;
+}
+.contactinfo a {
+    color:#fce138;
+}
