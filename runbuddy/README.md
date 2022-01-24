@@ -12,3 +12,5 @@ https://Rbodil.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Reagan Bodily
+
+### ©️2022 Run Buddy, Inc 
