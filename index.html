@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Run Buddy</title>
+    <link rel="stylesheet" href="runbuddy stylesheet.css">
+  </head>
+  <body>
+    <header>
+        <h1>
+          <a href="runbuddy.html">RUN BUDDY</a>
+        </h1>
+        <!-- the / for whatever reason would take me to my /users directory, so I added the html-->
+        <nav>
+          <ul>
+            <li>
+              <a href="#whatwedo">What We Do</a>
+            </li>
+            <li>
+              <a href="#whatyoudo">What You Do</a>
+            </li>
+             <li>
+              <a href="#yourtrainers">Your Trainers</a>
+            </li>
+            <li>
+             <a href="#reachout">Reach Out</a>
+            </li>
+          </ul>
+        </nav>
+    </header>
+    <!--hero/jumbotron-->
+    <section class="hero">
+      <div class="hero-form"> 
+        <h3>Get Started Today</h3>
+      <p>Fill out this form and one of our trainers will schedule a consult</p>
+      <form action="submit">
+        <label for="name">Enter full name:</label>
+        <input type="text" placeholder="Your Name" name="name" id="name" class="form-input"/>
+        
+        <label for="email">Enter email address:</label>
+        <input type="email" placeholder="Email Address" name="email" id="email" class="form-input"/>
+        
+        <label for="phone">Enter telephone number</label>
+        <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input"/>
+        <p>
+          Have you worked out with a trainer before?
+          <input type="radio" name="trainer-confirm" id="trainer-yes"/>
+          <label for="trainer-yes">Yes</label>
+          <input type="radio" name="trainer-confirm" id="trainer-no"/>
+          <label for="trainer-no">No</label>
+        </p>
+        <p>
+          <label for="checkbox">
+            I acknowledge that I am at least 18 years of age.
+          </label>
+          <input type="checkbox" name="age-confirm" id="checkbox"/>
+        </p>
+        <button type="submit">
+          Get Running!
+        </button>
+      </form>
+      </div>
+    </section>
+    
+    <section id="whatwedo" class="intro">
+      <h2 class="section-title primary-border">What We Do</h2>
+      <p>
+        Have you seen the show Rick and Morty? There's this episode where this character Rick, he's a scientist, he turns himself into a pickle. It's the funniest shit I've ever seen. Like who even thinks of something like that. Anyways, he does it then he yells "Morty, I turned myself into a pickle! I turned myself into a pickle, Morty!" 
+      </p>
+    </section>
+    <section id="whatyoudo" class="steps">
+      <h2 class="section-title secondary-border">What You Do</h2>
+
+      <div>
+        <img src="step-1.svg" alt="step-1"/>
+        <h3>Step 1: <span>Fill Out the Form Above</span></h3>
+        <p>You're already here, so why not?</p>
+      </div>
+      <div>
+        <img src="step-2.svg" alt="step-2"/>
+        <h3>Step 2: <span>Consult with One of Our Trainers</span></h3>
+        <p>Are you here to build muscle, lose weight, or just feel good?</p>
+      </div>
+      <div>
+        <img src="step-3.svg" alt="step-3"/>
+        <h3>Step 3: <span>Get Running!</span></h3>
+        <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+      </div>
+      <div>
+        <img src="step-4.svg" alt="step-4"/>
+        <h3>Step Four: <span>See Results</span></h3>
+        <p>Biweekly check-ins with your trainer will keep you focused</p>
+      </div>
+    </section>
+    <section id="yourtrainers" class="trainers">
+
+      <h2 class="section-title primary-border">Meet the Trainers</h2>
+
+
+      <article class="trainer">
+        <img src="trainer-1.jpg" alt="Arron Stephens">
+
+        <div class="trainerbio text-left">
+          <h3>Arron Stephens</h3>
+          <h4>Speed/Strength</h4>
+          <br/>
+          <p>
+            How much wood would a woodchuck chuck if a wood chuck could chuck wood? The truth is the woodchuck would chuck as much wood as a woodchuck could chuck.
+          </p>
+        </div>
+      </article>
+
+      <article class="trainer-2 trainer">
+        <img src="trainer-2.jpg" alt="Joanna Gill">
+        <div class="trainerbio text-right">
+          <h3>Joanna Gill</h3>
+          <h4>Endurance</h4>
+          <br/>
+          <p>
+            How much wood would a woodchuck chuck if a wood chuck could chuck wood? The truth is the woodchuck would chuck as much wood as a woodchuck could chuck. 
+          </p>
+        </div>
+      </article>
+
+      <article class="trainer">
+        <img src="trainer-3.jpg" alt="The Headband">
+
+        <div class="trainerbio text-left">
+          <h3>Harry "The Headband" Smith</h3>
+          <h4>Strength</h4>
+          <br/>
+          <p>
+            How much wood would a woodchuck chuck if a wood chuck could chuck wood? The truth is the woodchuck would chuck as much wood as a woodchuck could chuck.
+          </p>
+        </div>
+      </article>
+    </section>
+
+
+    <section id="reachout" class="contact">
+      <div >
+      <h2 class="section-title secondary-border">Reach Out</h2>
+      </div>
+      <div class="contactinfo">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.6479741283383!2d-112.00448418428817!3d40.68172474740362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87528d02db37cb93%3A0x59f0c03a9167aa4f!2s4649%20W%204100%20S%2C%20West%20Valley%20City%2C%20UT%2084120!5e0!3m2!1sen!2sus!4v1642306476299!5m2!1sen!2sus"
+        width= "400"
+        height= "400"
+        style= "border:0;"
+        allowfullscreen = ""
+        loading = "lazy">
+      </iframe>
+      </div>
+      <div class="contactinfo">
+        <br/>
+        <h3>Run Buddy</h3>
+        <p>
+          Any questions or concerns before signing up?
+          <br/>
+          Let us know and we'll be happy to talk to you!
+        </p>
+        <address>
+          4649 West 4100 South <br/>
+          West Valley City, UT <br/>
+          84120<br/>
+          Phone: (555)867-5309<br/>
+          Email: <a href="mailto:rbsupport@runbuddy.io">rbsupport@runbuddy.io</a>
+        </address>
+      </div>
+    </section>
+   
+    <footer>
+        <h2>❤️Made with love by Run Buddy</h2>
+        <div>
+          <a href="runbuddyprivacy.html" rel="Privacy">Read Our Privacy Policy</a><br />
+          &copy; 2022 Run Buddy, Inc.
+        </div>
+    </footer>
+
+
+  </body>
+</html>
+
+
+
+
+
