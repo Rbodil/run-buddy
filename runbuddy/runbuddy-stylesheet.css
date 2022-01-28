@@ -205,84 +205,113 @@ section{
     line-height: 1.5;
     color: #024e76;
 }
+.trainers {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 .trainer img {
-    float: left;
-    width: 35%;
-}
-.trainer p{
-    float: right;
-    
-}
-/* the code was broken*/
-.trainer-2 img {
-    float: right;
-    width: 35%;
-}
-/* it has been remade*/
-.trainer-2 p{
-    float:left;
-    
+    width: 100%;
+    padding: 25px;
 }
 .trainer{
-    width: 900px;
-    margin: 0 auto 30px auto;
+    
+    margin: 20px;
     background-color: #024e76;
     color: #fce138;
-    overflow: auto;
+    flex: 1;
+}
+.trainername {
+
+}
+.trainerrole {
+
 }
 .trainerbio {
-    padding: 35px;
-    float: left;
-    width: 65%;
+    padding: 25px;
     line-height: 1.5;
+}
+.trainerbio h3{
+    font-size: 28px;
+
 }
 /*mine didn't look like the mock-up so I learned about line height and font weight*/
 .trainerbio h4{
-    line-height: 2;
-    font-size: larger;
+    line-height: ;
+    font-size: 22px;
     font-weight: 400;
+    margin-bottom: 15px;
 }
-.text-left {
-    text-align: left;
-}
-.text-right {
-    text-align: right;
-}
+
 .contact {
     background: #024e76;
     overflow: auto;
-
+}
+.contact div{
+    display: flex;
+    justify-content: space-between;
+    flex: 4 1 500px
+    
 }
 .contact h2{
     text-align: center;
     color: #fce138;
+    
 }
 .contactinfo h3{
     color: #fce138;
-    font-size: 32px;
+    font-size: 32px;   
 }
 .contactinfo {
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
+    display: flex;
+    flex-wrap: wrap;
     text-align: left;
-    margin: 30px 0 0 60px;
     color:white;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 
+}
+
+.contactinfo > *{
+    flex: 1 33%;
+    margin: 15px;
+    flex-direction: column;
+    
+    
 }
 .contactinfo p, .contactinfo address{
     margin: 20px;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 16px;
     font-style:normal;
+    width: 350px;
+
+    
 }
 .contactinfo a {
     color:#fce138;
 }
+.contact-form input, .contact-form textarea{
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.contact-form button {
+    width: 100%;
+    border: none;
+    background: #fce138;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+}
 .flex-row{
     display:flex;
-
-
-
-
 }
