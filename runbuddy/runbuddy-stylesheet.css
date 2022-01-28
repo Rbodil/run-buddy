@@ -95,6 +95,7 @@ section{
     border-color: #024e76;
     width: 40%;
     margin: 3.5%;
+    opacity: 75%;
 }
 .hero-form p {
     margin: 5px 0 15px 0;
