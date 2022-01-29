@@ -322,12 +322,6 @@ section{
     color: var(--primary-color);
     flex: 1;
 }
-.trainername {
-
-}
-.trainerrole {
-
-}
 .trainerbio {
     padding: 25px;
     line-height: 1.5;
@@ -338,7 +332,7 @@ section{
 }
 /*mine didn't look like the mock-up so I learned about line height and font weight*/
 .trainerbio h4{
-    line-height: ;
+    line-height: 1.5;
     font-size: 22px;
     font-weight: 400;
     margin-bottom: 15px;
@@ -351,7 +345,7 @@ section{
 .contact div{
     display: flex;
     justify-content: space-between;
-    flex: 4 1 500px
+    flex: 4 1 500px;
     
 }
 .contact h2{
@@ -511,6 +505,23 @@ section{
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+    }
+       /*I placed this additional mediaquery here because the smaller 
+    sized screens would have to scroll sideways to see the address element*/
+    .contactinfos{
+        position:relative;
+        left:5.625rem;
+
+    }
+    .contactinfo p{
+        position:relative;
+        top:9.375rem;
+        left: -12.5rem;
+    }
+    .contactinfo address{
+        position:relative;
+        top:250px;
+        right: 600px
     }
     .contactinfo >* {
         flex: 0 100%;
